@@ -227,7 +227,7 @@ function calculateFormations(troops, marchSize, numMain, numToken) {
 
 export default function App() {
   const [troops,          setTroops]          = useState(DEFAULT_TROOPS);
-  const [marchSize,       setMarchSize]       = useState(135210);
+  const [marchSize,       setMarchSize]       = useState(138710);
   const [additionalMarch, setAdditionalMarch] = useState(0);
   const [mainMarches,     setMainMarches]     = useState(3);
   const [tokenMarches,    setTokenMarches]    = useState(3);
